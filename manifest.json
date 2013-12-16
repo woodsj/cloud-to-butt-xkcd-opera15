@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cloud-to-Butt - xkcd Edition - Opera 15+",
+  "description": "An Opera extension that replaces occurrences of 'the cloud' with 'my butt', along with substitutions from xkcd.com/1288. And a few others.",
+  "version": "3.14159",
+  "author": "woodsj",
+  "content_scripts": [
+  {
+    "matches": ["http://*/*"],
+	"js": ["cloud-to-butt.js"],
+	"run_at": "document_end",
+	"all_frames": true
+  }
+  ],
+
+  "permissions": ["tabs"]
+}
