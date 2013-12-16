@@ -67,19 +67,13 @@
         v = v.replace(/\bKeith Alexander\b/g, "Zod");
         v = v.replace(/\bNSA\b/g, "Scooby-Doo Detective Agency");
         v = v.replace(/\bN.S.A.\b/g, "Scooby-Doo Detective Agency");
-		v = v.replace(/\bNational Security Agency\b/g, "Scooby-Doo Detective Agency");
+	v = v.replace(/\bNational Security Agency\b/g, "Scooby-Doo Detective Agency");
 
         textNode.nodeValue = v;
     }
 	
-	window.onload = function() {
-		walk(document.body);
-	}
-
-	/*
-    currentWindow.addEventListener('DOMContentLoaded', function() {
+    window.onload = function() {
         walk(document.body);
-    }, false);
-	*/
+    }
 
 }());
