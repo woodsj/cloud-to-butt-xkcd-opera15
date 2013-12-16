@@ -57,17 +57,17 @@
         v = v.replace(/\bsenator\b/g, "elf-lord");
         v = v.replace(/\bCat\b/g, "Dinosaur");
         v = v.replace(/\bcat\b/g, "dinosaur");
-        v = v.replace(/\bElection\b/g, "Eating Contest");
-        v = v.replace(/\belection\b/g, "eating contest");
-        v = v.replace(/\bcould not be reached for comment\b/g, "is guilty and everyone knows it");
-        v = v.replace(/\bTSA Agent\b/g, "Scrote Grabber");
-        v = v.replace(/\bTSA agent\b/g, "scrote grabber");
+        v = v.replace(/\bElection/g, "Eating Contest");
+        v = v.replace(/\belection/g, "eating contest");
+        v = v.replace(/\bcould not be reached for comment/g, "is guilty and everyone knows it");
+        v = v.replace(/\bTSA Agent/g, "Scrote Grabber");
+        v = v.replace(/\bTSA agent/g, "scrote grabber");
         v = v.replace(/\bSocial justice\b/g, "Circlejerk");
         v = v.replace(/\bsocial justice\b/g, "circlejerk");
         v = v.replace(/\bKeith Alexander\b/g, "Zod");
-        v = v.replace(/\bNSA\b/g, "Scooby-Doo Detective Agency");
-        v = v.replace(/\bN.S.A.\b/g, "Scooby-Doo Detective Agency");
-	v = v.replace(/\bNational Security Agency\b/g, "Scooby-Doo Detective Agency");
+        v = v.replace(/\bNSA/g, "Scooby-Doo Detective Agency");
+        v = v.replace(/\bN.S.A./g, "Scooby-Doo Detective Agency");
+	v = v.replace(/\bNational Security Agency/g, "Scooby-Doo Detective Agency");
 
         textNode.nodeValue = v;
     }
