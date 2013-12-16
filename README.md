@@ -7,7 +7,9 @@ Derived from the work of Steven Frank's [cloud-to-butt](https://github.com/panic
 
 1. Download [CloudToButtXKCDEditionOpera.nex](https://github.com/woodsj/cloud-to-butt-xkcd-opera15/releases/download/3.14159/cloud-to-butt-xkcd-edition-opera15.nex)
 2. Drag and Drop the file into an Opera session
-3. Win at life!
+3. You'll get a message at the top of the window informing you that the extension has been disabled because it's from an unknown source. Click the Go button at the top right to go to the Extension Manager
+4. Enable the extension
+5. Win at life!
 
 
 ## Building
